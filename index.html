@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
-<body class="d-flex flex-column h-100 text-white bg-dark">
+<body class="d-flex flex-column h-100 text-white bg-dark animate__animated animate__fadeIn">
     <main class="flex-shrink-0">
         <div class="container">
             <section id="profile" class="d-flex flex-column flex-sm-row justify-content-around align-items-center my-5">
@@ -21,11 +21,9 @@
                     <h1 class="animate__animated animate__bounceInDown text-center text-sm-start">Nicolás Bologna</h1>
                     <h4 class="animate__animated animate__zoomIn">.NET Full-Stack Developer</h4>
                 </div>
-                <div class="d-flex flex-column align-items-center">
-                    <img src="images/foto_perfil.JPG" class=" rounded-circle profile-photo bg-light animate__animated animate__bounceInRight" alt="me">
-                </div>
+                <img src="images/foto_perfil.JPG" class="rounded-circle profile-photo" alt="me">
             </section>
-            <section class="d-flex justify-content-center animate__animated animate__fadeIn">
+            <section class="d-flex justify-content-center">
                 <a href="https://www.linkedin.com/in/nicolas-bologna" class="icon" title="LinkedIn" target="_blank">
                     <svg viewBox="0 0 512 512">
                     <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/>
@@ -50,31 +48,25 @@
             <section class="d-flex flex-wrap flex-column align-items-center flex-sm-row justify-content-sm-around">
 
                 <article class="card" onclick="redirect(pwcURL);">
-                    <figure>
-                        <img src="images/pwc.png" class="card-img-top card-img-top-pwc">
-                    </figure>
                     <div class="card-body">
+                        <h3 class="card-title">PricewaterhouseCoopers</h3>
                         <h6>.NET Developer for Transfer Pricing Technology</h6>
-                        <h6>Pwc</h6>
-                        <h6>Oct 2019 - Present</h6>
+                        <h6 class="text-muted">Oct 2019 - Present</h6>
                     </div>
                 </article>
 
                 <article class="card" onclick="redirect(dinamicURL);">
-                    <figure>
-                        <img src="images/dinamicStudio.jpg" class="card-img-top">
-                    </figure>
                     <div class="card-body">
+                        <h3 class="card-title">Dinamic Studio Web</h3>
                         <h6>PHP developer</h6>
-                        <h6>Dinamic Studio Web</h6>
-                        <h6>Dec 2019 - May 2019</h6>
+                        <h6 class="text-muted">Dec 2019 - May 2019</h6>
                     </div>
                 </article>
             </section>
             <hr>
             <h2 class="mb-3 text-center text">PORTFOLIO</h2>
-            <section>
-                <h4 class="text-center">SOON...</h4>
+            <section id="portfolio-section">
+                <h4 class="text-center">SOON</h4>
             </section>
         </div>
     </main>
