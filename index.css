@@ -1,0 +1,73 @@
+.profile-photo{
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+body{
+    background-color: rgba(235, 235, 235, 0.287);
+}
+
+.icon{
+    transition: transform 1s ease-in-out;
+    background: #212529 ;
+    border-radius: 100%;
+    fill: #212529;
+    background-color: white;
+    margin-right: 1rem;
+    margin-right: 1rem;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    transition: transform 500ms ease-in-out;
+    background: white ;
+    color: #212529;
+    fill: #212529;
+}
+
+.card{
+    max-width: 20rem;
+    max-height: 15rem;
+    margin-bottom: 3rem;
+    transition: transform 1s ease-in-out, box-shadow 2s;
+    border: 0;
+}
+
+.card:hover{
+    cursor: pointer;
+    transition: transform 1s ease-in-out, box-shadow 2s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(212, 212, 212, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figure{
+    height:3rem; /*container-width*/
+    overflow:hidden; /*hide bounds of image */
+    margin:0;   /*reset margin of figure tag*/
+ }
+ figure img{
+    display:block; /*remove inline-block spaces*/
+    width:100%; /*make image streatch*/
+ }
+ figure img.card-img-top-pwc{
+    /*add to other styles*/
+    margin:-5.875% 0;
+ }
+
+ .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  a{
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  
+
